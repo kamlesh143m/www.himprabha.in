@@ -1,1 +1,295 @@
-# www.himprabha.in
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Him Prabha Sahodaya</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f4f4f5;
+    }
+.logo-title h1 {
+  margin: 0;
+}
+
+header p {
+  margin-top: 0px;
+  margin-bottom: 0;
+  font-size: 1rem;
+}
+
+    header {
+      background: blue;
+      color: white;
+      padding: 0px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+       }
+
+    .logo-title {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      justify-content: center;
+    }
+
+    .logo-title img {
+      height: 175px;
+      width: 175px;
+    }
+
+    nav {
+      background: red;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+    }
+
+    section {
+      padding: 20px;
+      background: white;
+      margin: 8px;
+      border-radius: 8px;
+    }
+
+    footer {
+      background: #003366;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+.round-image {
+  width: 150px;          /* Adjust as needed */
+  height: 150px;         /* Should be equal to width for a perfect circle */
+  border-radius: 50%;    /* Makes it circular */
+  object-fit: cover;     /* Ensures image fills the circle without distortion */
+}
+ .line-before-text::before {
+      content: "";
+      display: inline-block;
+      width: 100px;
+      height: 2px;
+      background-color:white ;
+      margin-right: 10px;
+      vertical-align: middle;
+    }
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 15px;
+  padding: 20px;
+}
+
+.gallery-grid img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.gallery-grid img:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo-title">
+    <img src="C:\Users\Kamlesh Kumar\Downloads\HPL.png" alt="Him Prabha Sahodaya Logo">
+    <table>
+    <tr><td><font size=60><b>Him Prabha Sahodaya School Complex </b></font> </td></tr>
+    <tr><td><div class="line-before-text">Working Together, Rising Together</div></td></tr></table>
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#schools">Member Schools</a>
+  <a href="#events">Events</a>
+  <a href="#circulars">Circulars</a>
+  <a href="#gallery">Gallery</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+  <h2>About Him Prabha Sahodaya</h2>
+  <p><b>Him Prabha – The Radiance of Snow.</b></p><br>
+<p>A name inspired by the serene brilliance of the Himalayan snow, symbolizing purity, knowledge, and unity.
+
+Him Prabha Sahodaya is a collaborative network of CBSE-affiliated schools located in the Himachal, formed with the shared vision of elevating the standards of education through cooperation, innovation, and mutual growth.
+
+Rooted in the spirit of Sahodaya — a Sanskrit word meaning “rising together” — our complex brings together schools to work in harmony, exchanging ideas, resources, and best practices. The term “Him Prabha” reflects our identity: institutions nestled in the lap of the Himalayas, radiating the light of learning and values.</p><br>
+
+🌟 <b>Our Purpose:</b><br><br><br>
+-To foster collaboration among member schools <br> <br>
+
+-To organize inter-school competitions, workshops, and cultural events<br> <br>
+
+-To promote academic excellence, teacher development, and leadership<br> <br>
+
+-To uphold the values of integrity, unity, and innovation<br> <br>
+
+We believe that education is most powerful when shared. Just like snow reflects light, our collective efforts reflect wisdom, creativity, and progress.
+
+Together, under the banner of Him Prabha Sahodaya, we aim to shape a brighter, more enlightened future for every learner in our region.
+
+</p>
+</section>
+
+<section id="schools">
+  <h2>Member Schools</h2>
+  <ul>
+    <li> R.K. International School - Nabahi, Sarkaghat </li>
+    <li> Mount Mourya International School - Jogindernagar</li>
+    <li> Takshila International - Mandi</li>
+    <li> The Phoenix School - Mandi</li>
+    <li> Mind Tree - Mandi</li>
+    <li> Jaypee Public School - Samirpur</li>
+    <li> Green Valley School - Jahu </li>
+    <li> Mahavir Public School- Sundernagar </li>
+    <li> The Sanskar Valley School - Dhalwan </li> 
+    <li> Angel Public School - Sundernagar </li>
+    <li> Shiva International School - Ghumarwin </li>
+    <li> Chail Public School - Chailchowk </li>
+    <li> Genius International Public School - Nerchowk </li>    
+    <!-- Add more schools -->
+  </ul>
+</section>
+
+<section id="events">
+  <h2>Upcoming Events</h2>
+  <p>No events currently scheduled. Please check back soon.</p>
+</section>
+
+<section id="circulars">
+  <h2>Latest Circulars</h2>
+  <ul>
+    <li><a href="#">Circular 1 - [PDF]</a></li>
+    <li><a href="#">Circular 2 - [PDF]</a></li>
+  </ul>
+</section>
+<section id="contact">
+  <h2> <center> Office Bearers </center></h2>
+<table>
+<tr> <td>
+               <div class="col-md-10 mx-auto">
+                  <div class="row justify-content-between">
+                    
+                  
+                    <div class="col-lg-5 my-3">
+                      <div class="row">
+                         <div class="col-10 col-md-4">
+                          <img src="C:\Users\Kamlesh Kumar\Desktop\sk\Website\SK.png" class="round-image" height=150 width=150>                          </div>
+                         <div class="col-md-7">
+                            <div class="team-desg">
+                               <h4 class="team-name">Mr S.K. Sharma</h4>
+                               <p class="team-title">President</p>
+                            </div>
+                            <div class="my-4 team-contact">
+                               <p class="mb-2">Him Prabha Sahodaya School Complex</p>
+                               <p class="school-name mb-2">Principal R.K. International School, Nabahi, Sarkaghat</p>
+                               <p class="mb-2"><i class="fas fa-phone-alt mr-2"></i> 70180 48514 </p>
+                               <p class="mb-2" style="font-size:14px;"><i class="fas fa-envelope mr-2"></i>sksharma110@gmail.com</p>
+                            </div>
+                         </div>
+                      </div> </td>
+                   
+ <td> <div class="row">
+                         <div class="col-12 col-md-5">
+                            <img src="C:\Users\Kamlesh Kumar\Desktop\sk\Website\manoj.png" class="round-image" height=150 width=150>                             </div>
+                         <div class="col-md-7">
+                            <div class="team-desg">
+                               <h4 class="team-name">Mr. Manoj Thakur</h4>
+                               <p class="team-title">Vice President</p>
+                            </div>
+                            <div class="my-4 team-contact">
+                               <p class="mb-2">Him Prabha Sahodaya School Complex</p>
+                               <p class="school-name mb-2">MD Mount Mourya International School, Jogindernagar</p>
+                               <p class="mb-2"><i class="fas fa-phone-alt mr-2"></i> 94180 77544</p>
+                               <p class="mb-2" style="font-size:14px;"><i class="fas fa-envelope mr-2"></i>mmis2012@gmail.com</p>
+                            </div>
+                         </div>
+                      </div>
+                   </div>
+                   
+                  </div>  </td>
+              <td>     
+                    <div class="col-lg-5 my-3">
+                      <div class="row">
+                         <div class="col-12 col-md-5">
+                            <img src="C:\Users\Kamlesh Kumar\Desktop\sk\Website\Shailja.jpg" class="round-image" height=150 width=150>                           </div>
+                         <div class="col-md-7">
+                            <div class="team-desg">
+                               <h4 class="team-name">Ms.Shailja Kashyap</h4>
+                               <p class="team-title">Secretary</p>
+                            </div>
+                            <div class="my-4 team-contact">
+                               <p class="mb-2">Him Prabha Sahodaya School Complex</p>
+                               <p class="school-name mb-2">MD Takshila International School, Mandi</p>
+                               <p class="mb-2"><i class="fas fa-phone-alt mr-2"></i> 70185 01861</p>
+                               <p class="mb-2" style="font-size:14px;"><i class="fas fa-envelope mr-2"></i> takshilamandimail@gmail</p>
+                            </div>
+                         </div>
+                      </div>
+                  
+                   </td> 
+                   
+                   <td> <div class="col-lg-5 my-3">
+                      <div class="row">
+                         <div class="col-12 col-md-5">
+                            <img src="C:\Users\Kamlesh Kumar\Desktop\sk\Website\surender.jpg" class="round-image" height=150 width=150>                         </div>
+                         <div class="col-md-7">
+                            <div class="team-desg">
+                               <h4 class="team-name">Mr. Surender Choudhary </h4>
+                               <p class="team-title">Treasurer</p>
+                            </div>
+                            <div class="my-4 team-contact">
+                               <p class="mb-2">Him Prabha Sahodaya School Complex</p>
+                               <p class="school-name mb-2">MD Phoenix School, Mandi  </p>
+                               <p class="mb-2"><i class="fas fa-phone-alt mr-2"></i> 98160 96346</p>
+                               <p class="mb-2" style="font-size:14px;"><i class="fas fa-envelope mr-2"></i>thephoenixmandi@gmail.com</p>
+                            </div>
+                         </div>
+                      </div>
+                   </div>
+                   
+                           
+
+                  </div>
+
+               </div>
+
+            
+              
+            </div>
+         </div>
+     </div>  </td></tr></table> </section>
+<section id="gallery">
+ <h2 style="text-align: center;">📸 Photo Gallery</h2>
+  <div class="gallery-grid">
+    <img src="images/sports-day.jpg" alt="Sports Day Celebration">
+    <img src="images/cultural-event.jpg" alt="Cultural Event">
+    <img src="images/teachers-meet.jpg" alt="Teachers' Meet">
+    <img src="images/students-award.jpg" alt="Students Receiving Awards">
+    <img src="images/annual-function.jpg" alt="Annual Function">
+    <img src="images/science-expo.jpg" alt="Science Exhibition">
+  </div>
+</section>
+<footer>
+  <p>&copy; 2025 Him Prabha Sahodaya. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
